@@ -1,0 +1,25 @@
+.heading{
+    border: 5px solid black;
+    text-shadow: 1px 1px 2px gray;
+    background-color: orange;
+    color: palevioletred;
+}
+
+.one{
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.two{
+    font-size:36px;
+    letter-spacing: 0.02rem;
+}
+
+.animals{
+    border: 1px solid black;
+    padding: 16px;
+}
+
+.hide{
+    display: none;
+}

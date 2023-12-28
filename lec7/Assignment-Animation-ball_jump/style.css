@@ -1,0 +1,19 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    transform: translateY(0px);
+    animation-iteration-count: infinite;
+    position:absolute;
+    margin:50px;
+}
+@keyframes bounce {
+   
+}
+img{
+    width: 150px;
+    height: 150px;
+
+}

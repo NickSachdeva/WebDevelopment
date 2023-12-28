@@ -1,0 +1,28 @@
+section{
+    height: 500px;
+    width: 500px;
+    /* scroll-behavior: auto; */
+    border: 2px solid black;
+    margin: 60px auto;
+    overflow: scroll;
+}
+
+div{
+    height: 30px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    background-color: palevioletred;
+    font-size: 1rem;
+    position: sticky;
+    top: 10px;
+}
+
+ol{
+    list-style: none;
+}
+
+li{
+    border: 1px solid black;
+    background-color: lightgrey;
+    
+}

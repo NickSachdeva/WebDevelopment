@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+nav{
+    background-color: rgb(77, 86, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+.plus-color{
+    color: orange;
+    font-weight: 900;
+}
+.logo-p{
+    color:white;
+    padding: 0px 10px 0px 50px;
+    position: relative;
+    top: -5px;
+}
+.search-bar{
+    background-color: white;
+    padding: 8px;
+    width: 430px;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #2874f0;
+    border-radius: 5px;
+}
+.search-bar input{
+    width: 400px;
+    border: none;
+    outline: none;
+    font: 15px;
+}
+.loginbtn{
+    padding: 7px 40px;
+    font-size: 16px;
+    height: 30px;
+    font-weight: 550;
+    border: none;
+    outline: none;
+    color: #2874f0;
+}
+
+.Navlink{
+    padding: 0px 20px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.angledownicon i{
+    font-size: 10px;
+}

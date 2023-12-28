@@ -1,0 +1,40 @@
+#container{
+    width: 80vw;
+    border: 20px solid #ccc;
+    margin: 20px auto;
+    padding: 1rem;
+}
+
+section article img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.second-para{
+    clear: left;
+}
+
+hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}

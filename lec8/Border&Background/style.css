@@ -1,0 +1,27 @@
+section{
+    height: 200px;
+    width: 200px;
+    /* border-color: black;
+    border-style: dotted;
+    border-width: 10px; */
+    /* border: 10px dotted black; */
+
+    border-top: 10px solid aqua;
+    border-right: 5px dashed black;
+    border-bottom: 20px dotted blueviolet;
+    border-left: 30px double orange;
+
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+article{
+    width: 900px;
+    height: 500px;
+    border: 3px solid black;
+    margin: 10px auto;
+    background-color: brown;
+    background-image: url("https://images.unsplash.com/photo-1578655858279-e17d055eafd0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE3fGhtZW52UWhVbXhNfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    
+}

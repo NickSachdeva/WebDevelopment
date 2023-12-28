@@ -1,0 +1,18 @@
+:root{
+    --main-color:#0077b6;
+}
+
+main{
+    margin-top: 6.5rem; 
+}
+
+.products .card img{
+    height: 190px;
+    padding: 10px;
+}
+
+.products .btn{
+    background-color: var(--main-color);
+    color:white;
+}
+

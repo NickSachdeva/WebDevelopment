@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <!-- give path further to public folder in href -->
+    <link rel="stylesheet" href="/css/app.css"> 
+   
+</head>
+<body>
+    <h1>EJS Template</h1>
+    <h3>This is my first ejs template</h3>
+        <a href="/login">Login</a>
+        <a href="/products">Products</a>    
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et ipsa officiis esse possimus, ab similique nobis doloribus at aut rem asperiores rerum dicta consequuntur odit quisquam veritatis dignissimos nulla ut.</p>
+
+    <button id="btn">Click Me</button>
+
+<%- include("./partials/footer") %>

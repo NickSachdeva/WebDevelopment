@@ -1,0 +1,41 @@
+h1{
+    color: aqua;
+    text-decoration: dotted;
+}
+
+h3{
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 2cm;
+    background-color: yellow;
+    color: pink;
+}
+
+/* using id */
+#special{
+    color: lightsalmon;
+}
+
+/* using class */
+.one{
+    background-color: lightpink;
+}
+
+.two{
+    color: brown;
+}
+
+li{
+    width: 150px;
+}
+
+/* using attribute */
+attribute[href="http://makemytrip.com"]{
+    background-color: rgb(60, 63, 107);
+}
+
+/* using universal selector */
+*{
+    text-transform: uppercase;
+}
+

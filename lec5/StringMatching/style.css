@@ -1,0 +1,11 @@
+a[href^="http"]{
+    color: red;
+}
+
+a[href$="in"]{
+    color: antiquewhite;
+}
+
+a[href*="makemy"]{
+    color: lightgreen;
+}

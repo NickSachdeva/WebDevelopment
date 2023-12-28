@@ -1,0 +1,26 @@
+p{
+    /* Dimensions(height, Width) */
+    height:50px;
+    width: 400px;
+
+    /* border */
+    border: 2px solid green;
+
+    /* Margin */
+    /* margin: 40px; */
+
+    /* margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    margin-left: 200px; */
+
+    margin: 50px auto;
+    
+
+    /* Padding */
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+
+}
